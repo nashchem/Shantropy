@@ -1,0 +1,15 @@
+Package: Shantropy
+Type: Package
+Title: Shannon Entropy Computation for Gene Expression Data
+Version: 0.0.0.9000
+Authors@R: person("Naresh", "Doni Jayavelu", email = "nashchem@gmail.com", role = c("aut", "cre"))
+Description: An R function to compute Shannon entropy for gene expression across cell types or conditions to find cell type specific or condition specific gene expression patterns.
+Depends: R (>= 3.5)
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    dplyr,
+    assertthat,
+    stats
+RoxygenNote: 7.0.1
